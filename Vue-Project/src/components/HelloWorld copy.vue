@@ -9,7 +9,7 @@
           style="height:30px;border:1px dashed #ccc;color:#ccc;cursor:pointer;text-align:center;line-height:30px;padding:0 16px;" 
           :key='index' :id='item.id' :class="[item.tag?choosedStyle:'']"
           @click="clickLi(item)">
-              {{item.label}}
+              {{item.label}}8888
           </li>
         </ul>
         <i class="el-icon-delete" @click="changeAdd" v-show='showText'></i>
